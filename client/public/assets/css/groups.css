@@ -1,0 +1,30 @@
+/* Additional CSS for responsiveness */
+@media only screen and (max-width: 767px) {
+    /* Adjust padding and margins for smaller screens */
+    .newsfeed-size {
+      padding: 0 10px;
+    }
+  
+    /* Adjust font sizes for smaller screens */
+    .jumbotron-heading {
+      font-size: 24px;
+    }
+  
+    .fs-8 {
+      font-size: 12px;
+    }
+  
+    /* Adjust modal size and font size for smaller screens */
+    .modal-dialog {
+      max-width: 90%;
+    }
+  
+    .modal-title {
+      font-size: 20px;
+    }
+  
+    .new-msg-body {
+      font-size: 14px;
+    }
+  }
+  
